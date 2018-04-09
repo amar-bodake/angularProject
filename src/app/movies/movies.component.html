@@ -1,0 +1,11 @@
+<h1>Movie details</h1>
+<div><span>ID:</span> {{movie.id}}</div>
+<div><span>Name:</span> {{movie.name | uppercase}} </div>   <!-- Pipes for Uppercase -->
+<div><span>Release Year:</span> {{movie.releaseYear}} </div>
+
+<h2>Edit your Information</h2>
+<div styel = "margin:10 px;align:left">
+  <label>Movie Name: </label>
+  <input [ngModel] = "movie.name" type= "text" placeholder = "Enter your Name" >    <!-- one way databinding-->
+
+</div>
