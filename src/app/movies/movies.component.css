@@ -1,0 +1,46 @@
+.parent{
+    display:flex;
+}
+
+
+.selected{
+    background:mediumseagreen !important;
+    color :white;
+   
+}
+
+.movie {
+    background:#3399ff;
+    padding:0.5em 1em 0.5em 1em;
+    max-width: 16em;
+}
+
+.movie .movieListItem
+{
+   font-size: 0.875em;
+   font-family: Georgia,Serif;
+   background: #cce5ff;
+   padding:0.3em;
+   margin:0.2em;
+   text-align: left;
+   
+  
+   
+}
+
+.movie .movieListItem:hover {
+    cursor: pointer;
+}
+
+
+.details{
+    background:mediumseagreen;
+    color:white;
+    padding: 1em;
+    margin: 1em;
+    max-width: 20em;
+    text-align:left;
+    font-size: 0.875em;
+}
+
+
